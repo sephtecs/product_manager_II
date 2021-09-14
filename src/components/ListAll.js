@@ -37,6 +37,7 @@ const ListAll = (props) => {
                 <ul style={{textAlign: "center"}}>
                     <a href= {`/equipment/${equipment._id}`}>{equipment.title}</a>
                     <button style={{marginLeft: "8px"}} onClick={(e) =>{deleteEquipment(equipment._id)}}>Delete</button>
+                    <Link style={{marginLeft: "5px"}} to={`/equipment/${equipment._id}/edit`}>Edit</Link>
                 </ul>
             )}
 
