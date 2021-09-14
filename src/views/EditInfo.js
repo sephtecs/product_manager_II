@@ -50,7 +50,11 @@ const EditInfo = (props) => {
 
     return (
     <div style={{textAlign: "center", marginTop: "20px"}}>
+<<<<<<< HEAD
     <h2>Edit Your Product</h2>
+=======
+    <h2>New Product Manager</h2>
+>>>>>>> 06a60e4c9db09e9ede37d734590027944699a90f
     <form onSubmit= {(e) => {
         handleEditSubmit(e);
     }}>
